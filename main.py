@@ -13,6 +13,13 @@ class User:
         self.id = user_id                  # Attributes are defined within the constructor
         self.username = username
         self.followers = 0
+        self.following = 0
+
+
+    def follow(self, user):
+        user.followers += 1
+        self.following += 1
+
 
 user_1 = User("001", "Harry")
 user_2 = User("002", "Hermione")
