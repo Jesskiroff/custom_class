@@ -14,5 +14,6 @@ class User:
         self.username = username
 
 user_1 = User("001", "Harry")
+user_2 = User("002", "Hermione")
 
 print(user_1.id)
