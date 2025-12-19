@@ -12,3 +12,7 @@ class User:
     def __init__(self, user_id, username):  # __init__ is a special method called a constructor
         self.id = user_id                  # Attributes are defined within the constructor
         self.username = username
+
+user_1 = User("001", "Harry")
+
+print(user_1.id)
